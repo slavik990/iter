@@ -190,3 +190,10 @@ overflow:hidden;
 .green{
 	color:#86a741;
 }
+.ul_square_list {
+    list-style: square outside;
+}
+#wrapper #content .right #femont_img_1 {
+    width: 200px;
+    padding-right: 50px;
+}
