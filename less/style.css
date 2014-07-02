@@ -73,6 +73,16 @@ body ,html{
   font-weight: bold;
   right: 100px;
 }
+#wrapper header .text p {
+  margin:0;
+  padding:0;
+  line-height: 24px;
+  font-size: 20px;
+}
+#wrapper header .text p:first-child {
+  padding-top: 8px;
+}
+
 #wrapper #content .left {
   font-size: 25px;
   width: 50%;
