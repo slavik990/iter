@@ -193,7 +193,13 @@ overflow:hidden;
 .ul_square_list {
     list-style: square outside;
 }
+.ul_circle_list {
+    list-style: disc;
+}
 #wrapper #content .right #femont_img_1 {
     width: 200px;
     padding-right: 50px;
+}
+#wrapper #content .right #Flexible_Robotic_Solutions_0_1 {
+
 }
