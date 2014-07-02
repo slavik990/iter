@@ -107,9 +107,15 @@ body ,html{
   display:block;
 }
 #wrapper #content .right p.little{
-	text-align:center;
+  text-align:center;
   font-size: 14px;
   margin-top: 2px;
+}
+#wrapper #content .right span.bordered{
+  border: 1px solid black; 
+  padding: 5px 20px;
+  margin-right: 40px;
+  text-align: center;
 }
 
 #wrapper #content .right img.little {
