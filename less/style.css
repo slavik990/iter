@@ -260,3 +260,25 @@ overflow:hidden;
 .tr_right_align{
   text-align: right;
 }
+
+.dash {
+    text-align: left !important;
+    list-style: none;
+}
+ul.dash li:before {
+     content:"-"; 
+     position:relative; 
+     left:-15px;
+}
+ul.dash li {
+     text-indent:-5px;
+}
+.square_list {
+    list-style: square outside;
+}
+ul.square_list li:before {
+     left:-15px;
+}
+ul.square_list li {
+     text-indent:-10px;
+}
