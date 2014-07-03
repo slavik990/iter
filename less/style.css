@@ -244,6 +244,17 @@ overflow:hidden;
     width: 300px;
     padding-right: 50px;
 }
+#wrapper #content .right #NANOSHAPE_new_format_img {
+    width: 370px;
+    padding-right: 50px;
+}
+#wrapper #content .right #dsi_img {
+    width: 330px;
+    padding-right: 50px;
+}
+
+
+
 
 .table_bold, .table_bold tr, .table_bold td{
   font-weight: bold;
