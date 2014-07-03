@@ -30,6 +30,12 @@ body ,html{
 #wrapper .inner .padd {
   padding: 0 0 50px 10%;
 }
+#wrapper .inner .padd p{
+	text-align:justify;
+}
+#wrapper .inner .padd li{
+	text-align:justify;
+}
 #wrapper header {
   background-image: url("../i/header-bg.jpg");
   background-repeat: no-repeat;
@@ -212,6 +218,16 @@ overflow:hidden;
 .ul_circle_list {
     list-style: disc;
 }
+.ul_arrow_list {
+   list-style-image: url('../i/arrow.jpg');
+}
+.ul_minus_list {
+  list-style: none;
+}
+.ul_minus_list li:before { 
+  content: ' - ';
+}
+
 #wrapper #content .right #femont_img_1 {
     width: 200px;
     padding-right: 50px;
@@ -229,3 +245,18 @@ overflow:hidden;
     padding-right: 50px;
 }
 
+.table_bold, .table_bold tr, .table_bold td{
+  font-weight: bold;
+  margin: 0;
+  font-size: 16px;
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+
+.table_bold td{
+  padding: 3px;
+}
+
+.tr_right_align{
+  text-align: right;
+}
