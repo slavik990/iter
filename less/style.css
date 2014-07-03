@@ -30,6 +30,12 @@ body ,html{
 #wrapper .inner .padd {
   padding: 0 0 50px 10%;
 }
+#wrapper .inner .padd p{
+	text-align:justify;
+}
+#wrapper .inner .padd li{
+	text-align:justify;
+}
 #wrapper header {
   background-image: url("../i/header-bg.jpg");
   background-repeat: no-repeat;
